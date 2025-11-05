@@ -6,7 +6,7 @@ const apiOptions = {
     server: 'http://localhost:3000'
 };
 if(process.env.NODE_ENV === 'production'){
-    apiOptions.server = 'http://yourapi.com'
+    apiOptions.server = 'https://loc8r-api-j556.onrender.com'
 }
 
 const requestOpitons ={
@@ -265,4 +265,5 @@ module.exports = {
     locationInfo,
     addReview,
     doAddReview
+
 };
