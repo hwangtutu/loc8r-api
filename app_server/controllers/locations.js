@@ -112,7 +112,7 @@ const formatDistance = (distance) => {
         thisDistance = Math.floor(distance);
     }
     return thisDistance + unit;
-}
+};
 
 const openingTimeScheam = new mongoose.Schema({
     days: {
@@ -267,3 +267,4 @@ module.exports = {
     doAddReview
 
 };
+
