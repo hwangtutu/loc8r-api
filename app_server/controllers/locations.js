@@ -136,7 +136,7 @@ const reviewSchema=new mongoose.Schema({
         max: 5
     },
     reviewText: String,
-    created0n: {
+    createdOn: {
         type: Date,
         'default': Date.now
     }
@@ -267,4 +267,5 @@ module.exports = {
     doAddReview
 
 };
+
 
