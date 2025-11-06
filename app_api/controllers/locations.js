@@ -55,7 +55,7 @@ const locationsListByDistance = async (req, res) => {
                 address: result.address,
                 rating: result.rating,
                 facilities: result.facilities,
-                distance: `${result.distance.calculated.toFixed()}km`
+                distance: `${result.distance.calculated.toFixed(1)}km`
             }
         });
         res
